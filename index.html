@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment CSS 6</title>
+
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('./img/shara\ desert.jpg');
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 100px;
+        top: 20px;
+        color: white;
+    }
+
+    .left img {
+        width: 100px;
+    }
+
+    .left div {
+        line-height: 15px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 36%;
+        margin: auto 1040px;
+    }
+
+    .right {
+        position: absolute;
+        right: 108px;
+        top: 7px;
+        display: inline-block;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+
+    .btn {
+        background-color: white;
+        color: black;
+        padding: 8px 2px;
+        border: 2px solid grey;
+        border-radius: 15px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .basecontainer{
+        margin: 106px 150px;
+        display: flex;
+        width: 90%;
+        border-radius: 28px;
+    }
+    .container {
+        
+        width: 1000px;
+        border-radius: 28px;
+        text-align: center;
+        padding: 120px 0px;
+    }
+
+    .container-2 {
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        border-radius: 28px;
+    }
+
+
+    .container h1 {
+        text-align: center;
+        font-size: 60px;
+        text-align: left;
+    }
+
+    .container button {
+        display: block;
+        width: 33%;
+        margin: 30px 0px;
+    }
+    .item-1{
+        width: 400px;
+        height: 300px;
+        padding: 10px;
+        margin: 10px;
+        background: url('./img/pic-1.png');
+        border-radius: 15px;
+    }
+
+    .item-2{
+        width: 400px;
+        height: 300px;
+        padding: 10px;
+        margin: 10px;
+        background: url('./img/pic-2.png');
+        border-radius: 15px;
+    }
+    .item-3{
+        width: 400px;
+        height: 300px;
+        padding: 10px;
+        margin: 10px;
+        background: url('./img/pic-3.png');
+        border-radius: 15px;
+    }
+    .item-4{
+        width: 400px;
+        height: 300px;
+        padding: 10px;
+        margin: 10px;
+        background: url('./img/pic-4.png');
+        border-radius: 15px;
+    }
+    
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="./img/logo.png" alt="">
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">REGION</a></li>
+                <li><a href="#">ABOUT</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <img src="./img/menu.png" alt="">
+        </div>
+    </header>
+
+
+
+    <div class="basecontainer">
+        <div class="container">
+            <h1>SAHARA</h1>
+            <p style="font-size:18px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi vel nulla ipsa laborum quod error ut consectetur voluptatibus. Id vero quo adipisci ipsa maiores sequi necessitatibus! Veritatis fuga rem dolore eius quod illum accusamus.</p>
+            <button class="btn">EXPLORES</button>
+        </div>
+
+        <div class="container-2">
+            <div class="item-1"><h3>Western Desert</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde quasi esse quas aliquam non dolorem omnis doloremque explicabo dolor odio.</p></div>
+            <div class="item-2"><h3>AI Bagawat</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem quisquam dolor sit quam, aliquam natus nesciunt est et incidunt ex fugit? Veniam quia maiores quasi eum distinctio et laboriosam aspernatur.</p></div>
+            <div class="item-3"><h3>Pyramid Of Giza</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, voluptatibus? Molestiae, architecto blanditiis, laudantium nemo totam recusandae minima voluptate quas placeat ut a ea earum odio quia. Aperiam, et enim!</p></div>
+            <div class="item-4"><h3>Kalahari Desert</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, voluptatibus? Molestiae, architecto blanditiis, laudantium nemo totam recusandae minima voluptate quas placeat ut a ea earum odio quia. Aperiam, et enim!</p></div>
+
+        </div>
+        
+    </div>
+</body>
+
+</html>
